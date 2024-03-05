@@ -5,8 +5,8 @@ class MyClass():
     def getString(self):
         self.str = input("Enter a string: ") #Get a string from console input.
 
-    def printString(self):
-        print(self.str.upper()) #Print the string in upper case.
+    def printReverse(self):
+        print(self.reversed())
 
 a = MyClass()
 
@@ -14,4 +14,5 @@ a = MyClass()
 a.getString()
 
 # Call the printString method
-a.printString()
+a.printReverse()
+

@@ -1,7 +1,7 @@
 def imdb(movie):
     for i in movies:
-        if i["name"] == movie:
-            if i["imdb"] >= 5.5:
+        if i["name"] == movies:
+            if i["imdb"] > 6
                 return True
     return False
 

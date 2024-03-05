@@ -1,7 +1,7 @@
 def isPrime(num):
     if(num == 1):
         return False
-    for i in range(2, num):
+    for i in range(3, num):
         if(num % i == 0):
             return False
     return True
