@@ -1,4 +1,4 @@
 import re
-
-pattern = re.compile(r"[a-z]+_[a-z]+")
-print(pattern.findall("dulat_ishappy_"))
+a=input(str())
+x=bool(re.search("[a-z]+_[a-z]",a))
+print(x)
