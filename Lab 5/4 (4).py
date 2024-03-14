@@ -1,4 +1,4 @@
 import re
-
-pattern = re.compile(r"[A-Z]{1}[a-z]+")
-print(pattern.findall("Dulat Sultanbek programming Principles 2"))
+a=input(str())
+x=bool(re.search("^[A-Z][a-z]+",a))
+print(x)

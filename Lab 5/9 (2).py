@@ -1,6 +1,8 @@
 import re
-
-text = "HelloMyNameIsDulatAndIamAStudentOfKbtu"
-words = re.findall(r'[A-Z][^A-Z]*', text)
-spaced = ' '.join(words)
-print(spaced)
+def insert_spaces(text):
+    pattern = r'(?<=[a-z])(?=[A-Z])'
+    result = re.sub(pattern, ' ', text)
+    return result
+text = input(str(""))
+result = insert_spaces(text)
+print(result)

@@ -1,15 +1,7 @@
-import re
-
-def snakeToCamel(text):
-    words = text.split('_')
-    CamelString= words[0]
-    for char in words[1:]:
-        CamelString += char.capitalize()
-    return CamelString
-
-text = "my_snake_case_string"
-print(snakeToCamel(text))
-
-
-    
-
+def snake_to_camel(snake_case_str):
+    words = snake_case_str.split('_')
+    camel_case_words = [words[0]] + [word.capitalize() for word in words[1:]]
+    return ''.join(camel_case_words)
+snake_case_str = input(str(""))
+camel_case_str = snake_to_camel(snake_case_str)
+print(camel_case_str)

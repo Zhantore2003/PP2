@@ -1,4 +1,4 @@
 import re
-
-pattern = re.compile(r'a.*b$')
-print(pattern.findall("asdawdb, dfogergoyea4994b, ab, ppfkgdfgab"))
+a=input(str())
+x=bool(re.search("^a.*?b$",a))
+print(x)

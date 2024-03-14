@@ -1,6 +1,3 @@
 import re
-
-text = "MyNameIsDulat"
-
-words = re.findall(r'[A-Z][^A-Z]*', text)
-print(words)
+text = input(str(""))
+print(re.findall('[A-Z][^A-Z]*', text))

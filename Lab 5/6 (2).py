@@ -1,5 +1,4 @@
 import re
-
-text = "Hello My name, is. Dulat"
-replacedText = re.sub(r'[ ,.]', ':', text)
+text = input(str(""))
+replacedText = re.sub('[ ,.]', ':', text)
 print(replacedText)
