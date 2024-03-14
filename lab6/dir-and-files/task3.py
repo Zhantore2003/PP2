@@ -1,5 +1,5 @@
 import os
-p = (r"C:\Users\Lenovo\OneDrive\Рабочий стол\PP II")
+p = (r"C:\KBTU\DONER\PP2\lab6")
 
 if os.path.exists(p):
     print("file and dir portions of the path")

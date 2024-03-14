@@ -1,5 +1,5 @@
 import os
-p = os.listdir(r'C:\Users\Lenovo\OneDrive\Рабочий стол\PP II')
+p = os.listdir(r'C:\KBTU\DONER\PP2\lab6')
 for i in p:
     print(i)
 for i in p:

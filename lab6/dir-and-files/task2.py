@@ -1,5 +1,5 @@
 import os
-p = os.listdir(r'C:\Users\Lenovo\OneDrive\Рабочий стол\PP II')
+p = os.listdir(r'C:\KBTU\DONER\PP2\lab6')
 print('Exists:', os.access(__file__, os.F_OK))
 print('Readable:', os.access(__file__, os.R_OK))
 print('Writable:', os.access(__file__, os.W_OK))
