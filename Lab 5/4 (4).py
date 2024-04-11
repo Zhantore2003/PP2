@@ -1,4 +1,4 @@
 import re
 a=input(str())
-x=bool(re.search("^[A-Z][a-z]+",a))
+x=bool(re.search("^.@gmail.com&",a))
 print(x)

@@ -10,7 +10,7 @@ def parse_receipt(text):
     match = re.search(r'Чек №(\d+)\n', text)
     check_number = match.group(1) if match else None
 
-    match = re.search(r'Касса (.+)\n', text)
+    match = re.search(r'Касс (.+)\n', text)
     cash_register = match.group(1) if match else None
 
     match = re.search(r'Смена (\d+)\n', text)
