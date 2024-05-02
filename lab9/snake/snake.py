@@ -10,7 +10,7 @@ CELL_SIZE = 20
 SNAKE_COLOR = (0, 255, 0)
 FOOD_COLOR = (255, 0, 0)
 BACKGROUND_COLOR = (0, 0, 0)
-DISAPPEAR_TIME = random.randint(1000, 2000)  # Random time between 1 and 2 seconds in milliseconds
+DISAPPEAR_TIME = random.randint(4000, 5000)  # Random time between 1 and 2 seconds in milliseconds
 
 # Directions
 UP = (0, -1)
